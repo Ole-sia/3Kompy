@@ -1,18 +1,20 @@
 body {
     margin:0px;
     padding: 0px;
-    background-color:#F2F2F2;
+    background: url(images/first_aid_kit.png)repeat;
     font-family:Arial, sans-serif;
     font-size:100%;
 }
 
 .header { height: 120px;
     background-color: #086A87;
+    margin:0 auto;
+    width:960px;
     }
 
 .header-container img{
     background-color: #086A87;
-    margin-left: 180px;
+    margin-left: 0px;
     margin-top: 15px;
    
 }
@@ -20,7 +22,10 @@ body {
 .container {
     margin:0 auto;
     width:960px;
-    }
+    background-color:#F2F2F2;
+    
+}
+    
 
 .container a{
     text-decoration: none;
@@ -50,6 +55,8 @@ body {
     background-color:black;
     min-height:64px;
     border-bottom: 5px solid darkgray;
+    margin:0 auto;
+    width:960px;
 
     
 }
@@ -91,7 +98,7 @@ height: 59px;
 }
 
 
-.search{
+.search {
     padding: 20px 0px;
     float: right;
 }
@@ -122,8 +129,9 @@ height: 59px;
     overflow: auto;
 }
 .collection-title{
-    padding-bottom: 5px;
+    padding: 15px;
     border-bottom: 1px solid darkgray;
+    margin-top: 0px;
    
 }
 .collection-title small{
@@ -132,8 +140,10 @@ height: 59px;
 }
 .collection-item-outer {
     float: left;
+/*
     padding-left: 5px;
     padding-right: 5px;
+*/
     width: 33.33%;
     box-sizing:border-box;
 
@@ -205,11 +215,15 @@ border-radius: 5px;
 
 .footer {
     background-color: #F7D358;
-    padding: 15px 0;
-    margin-top: 30px;
+    padding: 10px 0;
+    margin:0 auto;
+    width:960px;
+    
 }
-.footer .container{
+.container-footer{
     font-size: 13px;
     line-height: 1.3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F7D358;
+    margin: 15px;
 }
